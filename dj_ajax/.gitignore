@@ -1,0 +1,10 @@
+# Ignore the virtual environment
+/bin/
+/lib/
+/Scripts/
+/Lib/
+pyvenv.cfg
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
