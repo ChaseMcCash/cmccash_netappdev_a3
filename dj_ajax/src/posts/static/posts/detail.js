@@ -19,9 +19,9 @@ const csrf = document.getElementsByName('csrfmiddlewaretoken')
 const updateForm = document.getElementById('update-form')
 const deleteForm = document.getElementById('delete-form')
 
-backBtn.addEventListener('click', ()=>{
-    history.back()
-})
+// backBtn.addEventListener('click', ()=>{
+//    history.back()
+// })
 
 $.ajax({
     type: 'GET',
